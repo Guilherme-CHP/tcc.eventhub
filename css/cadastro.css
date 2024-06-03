@@ -11,17 +11,18 @@ body {
   }
    
   .login-container {
-    background-color: #333333; /* Cor do contêiner de login, dois tons mais claro */
-    padding: 15px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1); /* Sombra suave */
-    border: 2px solid #ffffff; /* Borda branca */
+    background-color: #333333;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    border: 2px solid #ffffff;
+    width: 400px;
+    max-width: 90%;
+    text-align: center;
   }
    
   .login-container h2 {
     margin-bottom: 20px;
-    justify-content: center;
-    display: flex;
   }
    
   .login-container input[type="text"],

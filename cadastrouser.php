@@ -28,7 +28,7 @@
       <input type="submit" name="submit" id="submit" value="Cadastrar">
     </form>
     <br>
-    <h1>Selecione a imagem de perfil</h1>
+    <h2>Selecione a imagem de perfil</h2>
     <br>
     <form method="POST" enctype="multipart/form-data" action="">
       <label for="">Selecione o arquivo</label>
