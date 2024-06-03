@@ -1,15 +1,18 @@
 <?php
 $id = $_POST['id'];
-$cpf = $_POST['cpf'];
 $nome = $_POST['nome'];
 $email = $_POST['email'];
 $senha = $_POST['senha'];
+$genero = $_POST['genero'];
+$idade = $_POST['idade'];
 include 'conexao.php';
+
 $usuario = R::dispense('usuarios');
-$usuario->cpf = $cpf;
 $usuario->nome = $nome;
 $usuario->email = $email;
 $usuario->senha = $senha;
+$usuario->genero = $genero;
+$usuario->idade = $idade;
 
 R::store($usuario);
 

@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #242424; /* Cor de fundo do tema noturno */
+    color: #ffffff; /* Cor do texto no tema noturno */
+    margin: 0;
+    padding:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+   
+  .login-container {
+    background-color: #333333; /* Cor do contêiner de login, dois tons mais claro */
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1); /* Sombra suave */
+    border: 2px solid #ffffff; /* Borda branca */
+  }
+   
+  .login-container h2 {
+    margin-bottom: 20px;
+    justify-content: center;
+    display: flex;
+  }
+   
+  .login-container input[type="text"],
+  .login-container input[type="email"],
+  .login-container input[type="password"],
+  .login-container input[type="number"],
+  .login-container select {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 13px;
+    border: none;
+    background-color: #555555; /* Cor de fundo dos campos, mais escuro */
+    color: #ffffff; /* Cor do texto nos campos */
+    border-radius: 4px;
+  }
+   
+  .login-container input[type="submit"] {
+    width: 95%;
+    padding: 10px;
+    border: none;
+    background-color: #1e76cf; /* Cor do botão de login */
+    color: #ffffff; /* Cor do texto no botão */
+    border-radius: 4px;
+    cursor: pointer;
+  }
+   
+  .login-container input[type="submit"]:hover {
+    background-color: #0056b3; /* Cor do botão de login ao passar o mouse */
+  }

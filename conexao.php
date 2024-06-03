@@ -1,6 +1,6 @@
 <?php
 include 'rb.php';
-// R::setup('mysql:host=localhost;dbname=redesocial','root','');
+R::setup('mysql:host=localhost;dbname=redesocial','root','');
 $servername = 'localhost';
 $username = 'root';
 $password = '';

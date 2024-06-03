@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,8 +9,9 @@
     <!-- IconScout CDN -->
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css">
     <!-- Stylesheet -->
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="css/site.css">
 </head>
+
 <body>
     <nav>
         <div class="container">
@@ -50,13 +52,13 @@
                 <div class="sidebar">
                     <a class="menu-item active">
                         <span><i class="uil uil-home"></i></span>
-                        <h3>Home</h3>   
+                        <h3>Home</h3>
                     </a>
                     <a class="menu-item">
                         <span><i class="uil uil-compass"></i></span>
                         <h3>Explore</h3>
                     </a>
-                    <a class="menu-item"  id="notifications">
+                    <a class="menu-item" id="notifications">
                         <span><i class="uil uil-bell"><small class="notification-count">9+</small></i></span>
                         <h3>Notification</h3>
                         <!--------------- NOTIFICATION POPUP --------------->
@@ -145,7 +147,7 @@
 
             <!----------------- MIDDLE -------------------->
             <div class="middle">
-                 <!----------------- STORIES -------------------->
+                <!----------------- STORIES -------------------->
                 <div class="stories">
                     <div class="story">
                         <div class="profile-photo">
@@ -234,8 +236,9 @@
                         </div>
 
                         <div class="caption">
-                            <p><b>Lana Rose</b> Lorem ipsum dolor sit quisquam eius. 
-                            <span class="harsh-tag">#lifestyle</span></p>
+                            <p><b>Lana Rose</b> Lorem ipsum dolor sit quisquam eius.
+                                <span class="harsh-tag">#lifestyle</span>
+                            </p>
                         </div>
 
                         <div class="comments text-muted">
@@ -284,8 +287,11 @@
                         </div>
 
                         <div class="caption">
-                            <p><b>Clara Dwayne</b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, fugiat? Ipsam voluptatibus beatae facere eos harum voluptas distinctio, officia, facilis sed quisquam esse, assumenda minima ut. Excepturi sit quis reiciendis! 
-                            <span class="harsh-tag">#lifestyle</span></p>
+                            <p><b>Clara Dwayne</b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam,
+                                fugiat? Ipsam voluptatibus beatae facere eos harum voluptas distinctio, officia, facilis
+                                sed quisquam esse, assumenda minima ut. Excepturi sit quis reiciendis!
+                                <span class="harsh-tag">#lifestyle</span>
+                            </p>
                         </div>
 
                         <div class="comments text-muted">
@@ -334,8 +340,14 @@
                         </div>
 
                         <div class="caption">
-                            <p><b>Rosalinda Clark</b> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo ullam, quam voluptatibus natus ex corporis ea atque quisquam, necessitatibus, cumque eligendi aliquam nulla soluta hic. Obcaecati, tempore dignissimos! Esse cupiditate laborum ullam, quae necessitatibus, officiis, quaerat aspernatur illo voluptatum repellat perferendis voluptatem similique. Assumenda nostrum, eius sit laborum nesciunt deserunt!
-                            <span class="harsh-tag">#lifestyle</span></p>
+                            <p><b>Rosalinda Clark</b> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo
+                                ullam, quam voluptatibus natus ex corporis ea atque quisquam, necessitatibus, cumque
+                                eligendi aliquam nulla soluta hic. Obcaecati, tempore dignissimos! Esse cupiditate
+                                laborum ullam, quae necessitatibus, officiis, quaerat aspernatur illo voluptatum
+                                repellat perferendis voluptatem similique. Assumenda nostrum, eius sit laborum nesciunt
+                                deserunt!
+                                <span class="harsh-tag">#lifestyle</span>
+                            </p>
                         </div>
 
                         <div class="comments text-muted">
@@ -384,8 +396,11 @@
                         </div>
 
                         <div class="caption">
-                            <p><b>Alexandria Riana</b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi architecto sunt itaque, in, enim non doloremque velit unde nihil vitae impedit dolorum, distinctio ab deleniti! 
-                            <span class="harsh-tag">#lifestyle</span></p>
+                            <p><b>Alexandria Riana</b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
+                                architecto sunt itaque, in, enim non doloremque velit unde nihil vitae impedit dolorum,
+                                distinctio ab deleniti!
+                                <span class="harsh-tag">#lifestyle</span>
+                            </p>
                         </div>
 
                         <div class="comments text-muted">
@@ -434,8 +449,10 @@
                         </div>
 
                         <div class="caption">
-                            <p><b>Keylie Hadid</b> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem obcaecati nisi veritatis quisquam eius accusantium rem quo repellat facilis neque.
-                            <span class="harsh-tag">#lifestyle</span></p>
+                            <p><b>Keylie Hadid</b> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem
+                                obcaecati nisi veritatis quisquam eius accusantium rem quo repellat facilis neque.
+                                <span class="harsh-tag">#lifestyle</span>
+                            </p>
                         </div>
 
                         <div class="comments text-muted">
@@ -484,8 +501,10 @@
                         </div>
 
                         <div class="caption">
-                            <p><b>Benjamin Dwayne</b> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum, consequuntur!
-                            <span class="harsh-tag">#lifestyle</span></p>
+                            <p><b>Benjamin Dwayne</b> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum,
+                                consequuntur!
+                                <span class="harsh-tag">#lifestyle</span>
+                            </p>
                         </div>
 
                         <div class="comments text-muted">
@@ -534,8 +553,11 @@
                         </div>
 
                         <div class="caption">
-                            <p><b>Indiana Ellison</b> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur itaque quasi autem pariatur ducimus eligendi, qui odio molestias at molestiae. 
-                            <span class="harsh-tag">#lifestyle</span></p>
+                            <p><b>Indiana Ellison</b> Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                Consequuntur itaque quasi autem pariatur ducimus eligendi, qui odio molestias at
+                                molestiae.
+                                <span class="harsh-tag">#lifestyle</span>
+                            </p>
                         </div>
 
                         <div class="comments text-muted">
@@ -546,7 +568,7 @@
                 </div>
                 <!----------------- END OF FEEDS -------------------->
             </div>
-             <!----------------- END OF MIDDLE -------------------->
+            <!----------------- END OF MIDDLE -------------------->
 
             <!----------------- RIGHT -------------------->
             <div class="right">
@@ -755,4 +777,5 @@
 
     <script src="./index.js"></script>
 </body>
+
 </html>
