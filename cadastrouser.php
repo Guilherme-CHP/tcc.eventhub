@@ -13,10 +13,10 @@
   <div class="login-container">
     <h2>Formulário de Login</h2>
     <form action="caduser.php" method="post">
-    <input type="text" name="nome" placeholder="Nome" required>
-      <input type="email" name="email" placeholder="Email" required>
-      <input type="password" name="senha" placeholder="Senha" required>
-      <input type="number" name="idade" placeholder="Idade" required>
+    <input type="text" name="nome" placeholder="Nome:" required>
+      <input type="email" name="email" placeholder="E-mail:" required>
+      <input type="password" name="senha" placeholder="Senha:" required>
+      <input type="number" name="idade" placeholder="Idade:" required>
       <div>
          <select name="genero" required>
         <option value="" disabled selected>Selecione seu gênero:</option>
