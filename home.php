@@ -53,12 +53,8 @@ if ($result === false) {
         <div class="container">
             <!----------------- LEFT -------------------->
             <div class="left">
-                <a class="profile">
-                    <div class="profile-photo">
-                        <img src="./images/profile-1.jpg">
-                    </div>
                     <div class="handle">
-                        <h4><?php echo $_SESSION['usuario_nome']; ?></h4>
+                        <h2><?php echo $_SESSION['usuario_nome']; ?></h2>
                     </div>
                 </a>
 
@@ -101,7 +97,8 @@ if ($result === false) {
                             while ($row = $result->fetch_assoc()) {
                                 echo "<div class='event'>";
                                 echo "<div class='info'>";
-                                echo "<h2>" . $row["nome"] . "</h2>";
+                                echo "<br>";
+                                echo "<h2>" . $row["nome"] . "</h2>" ;
                                 echo "<p><strong>Imagem do Evento:</strong></p>";
                                 echo "</div>";
                                 echo "<img src='data:" . $row["imagem_tipo"] . ";base64," . base64_encode($row["imagem"]) . "' alt='" . $row["nome"] . "' style='max-width: 100%; height: auto;'>";
@@ -141,15 +138,6 @@ if ($result === false) {
                         <h6 class="active">Primary</h6>
                         <h6 class="message-requests">Requests (7)</h6>
                     </div>
-                    <!------- MESSAGES ------->
-                    <div class="message">
-                        <div class="profile-photo">
-                            <img src="./images/profile-6.jpg">
-                        </div>
-                        <div class="message-body">
-                            <h5>Daniella Jackson</h5>
-                            <p class="text-bold">2 new messages</p>
-                        </div>
                     </div>
                 </div>
             </div>

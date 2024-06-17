@@ -1,6 +1,6 @@
 <?php
 
-include 'conexao.php';
+include '..//conexao.php';
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8", $username, $password);
@@ -25,7 +25,10 @@ try {
         window.location.href='..//index.php'; 
         </script> $email.";
     } else {
-        echo "E-mail não encontrado.";
+        echo "<script language='javascript' type='text/javascript'>
+        alert('E-mail não encontrado.');
+        window.location.href='..//index.php'; 
+        </script> $email.";
     }
 
 } catch (PDOException $e) {
