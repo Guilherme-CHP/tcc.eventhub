@@ -1,12 +1,11 @@
 <?php
-include 'rb.php';
-R::setup('mysql:host=localhost;dbname=redesocial','root','');
-$servername = 'localhost';
+$host = 'localhost';
 $username = 'root';
 $password = '';
-$database = 'redesocial';
+$dbname = 'redesocial';
 
-$mysqli = new mysqli($servername, $username, $password, $database);
+$mysqli = new mysqli($host, $username, $password, $dbname);
+$conn = new mysqli($host, $username, $password, $dbname);
 
 if($mysqli->error) {
     die("Falha ao conectar ao banco de dados: " . $mysqli->error);

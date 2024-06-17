@@ -1,31 +1,35 @@
 <?php
-include ('conexao.php');
+session_start();
 
-if (isset($_POST['email']) || isset($_POST['senha'])) { {
-        $email = $mysqli->real_escape_string($_POST['email']);
-        $senha = $mysqli->real_escape_string($_POST['senha']);
+include 'conexao.php';
 
-        $sql_code = "SELECT * FROM usuarios WHERE email = '$email' AND senha = '$senha'";
-        $sql_query = $mysqli->query($sql_code) or die("Falha na execução do código SQL:" . $mysqli->error);
+try {
+    $pdo = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8", $username, $password);
+    $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
-        $quantidade = $sql_query->num_rows;
+    $email = $_POST['email'];
+    $senha = $_POST['senha'];
 
-        if ($quantidade == 1) {
+    $stmt = $pdo->prepare("SELECT * FROM usuarios WHERE email = ?");
+    $stmt->execute([$email]);
+    $usuario = $stmt->fetch();
 
-            $usuario = $sql_query->fetch_assoc();
+    if ($usuario && password_verify($senha, $usuario['senha'])) {
+        $_SESSION['usuario_id'] = $usuario['id'];
+        $_SESSION['usuario_nome'] = $usuario['nome'];
 
-            if (!isset($_SESSION)) {
-                session_start();
-            }
-
-            $_SESSION['id'] = $usuario['id'];
-            $_SESSION['nome'] = $usuario['nome'];
-
-            header("Location: site.php");
-        } echo "<script language='javascript' type='text/javascript'>
-        alert('Usuário ou senha esta errado!!!');
-        window.location.href='index.php'; 
-        </script>";
+        header("Location: home.php");
+        exit();
+    } else {
+        echo "<script language='javascript' type='text/javascript'>
+    alert('Usuário ou senha esta incorreto!!!!!');
+    window.location.href='index.php'; 
+    </script>";
     }
-};
+
+} catch (PDOException $e) {
+    echo "Erro: " . $e->getMessage();
+}
+?>
+
 ?>;

@@ -21,7 +21,7 @@
         </form>
         <div class="links">
             <p>Não tem uma conta? <a href="cadastrouser.php">Cadastre-se</a></p>
-            <a href="reset.senha.php">Esqueceu sua senha?</a>
+            <a href="resetar_senha/esqueceu_senha.php">Esqueceu sua senha?</a>
         </div>
     </div>
 </body>
